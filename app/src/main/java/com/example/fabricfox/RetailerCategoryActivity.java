@@ -9,9 +9,9 @@ import android.widget.ImageView;
 
 public class RetailerCategoryActivity extends AppCompatActivity {
 
-    private ImageView tShirts, sportsTShirts, femaleDresses, sweaters;
-    private ImageView glasses, hatsCaps, walletsBagsPurses, shoes;
-    private ImageView headphonesHandsFree, laptops, watches, mobilePhones;
+    private ImageView tShirts, sportsTShirts, femaleShirts, sweaters;
+    private ImageView menPants, menJackets, skirts, tights;
+    private ImageView frocks, bottoms, sweatShirts, dresses;
 
 
 
@@ -22,16 +22,16 @@ public class RetailerCategoryActivity extends AppCompatActivity {
 
         tShirts= (ImageView) findViewById(R.id.t_shirts);
         sportsTShirts= (ImageView) findViewById(R.id.sports_t_shirts);
-        femaleDresses= (ImageView) findViewById(R.id.female_dresses);
+        femaleShirts= (ImageView) findViewById(R.id.female_shirts);
         sweaters= (ImageView) findViewById(R.id.sweaters);
-        glasses= (ImageView) findViewById(R.id.glasses);
-        hatsCaps= (ImageView) findViewById(R.id.hats);
-        walletsBagsPurses= (ImageView) findViewById(R.id.purses_bags_wallets);
-        shoes= (ImageView) findViewById(R.id.shoes);
-        headphonesHandsFree= (ImageView) findViewById(R.id.headphones_handsfree);
-        laptops= (ImageView) findViewById(R.id.laptop_pc);
-        watches= (ImageView) findViewById(R.id.watches);
-        mobilePhones= (ImageView) findViewById(R.id.mobilephones);
+        menPants= (ImageView) findViewById(R.id.men_pants);
+        menJackets= (ImageView) findViewById(R.id.men_jackets);
+        skirts= (ImageView) findViewById(R.id.skirts);
+        tights= (ImageView) findViewById(R.id.tights);
+        frocks= (ImageView) findViewById(R.id.frocks);
+        bottoms= (ImageView) findViewById(R.id.bottoms);
+        sweatShirts= (ImageView) findViewById(R.id.sweat_shirts);
+        dresses= (ImageView) findViewById(R.id.dresses);
 
         tShirts.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,11 +51,11 @@ public class RetailerCategoryActivity extends AppCompatActivity {
             }
         });
 
-        femaleDresses.setOnClickListener(new View.OnClickListener() {
+        femaleShirts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(RetailerCategoryActivity.this, RetailerAddNewProductActivity.class);
-                intent.putExtra("category", "femaleDresses");
+                intent.putExtra("category", "femaleShirts");
                 startActivity(intent);
             }
         });
@@ -69,74 +69,74 @@ public class RetailerCategoryActivity extends AppCompatActivity {
             }
         });
 
-        glasses.setOnClickListener(new View.OnClickListener() {
+        menPants.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(RetailerCategoryActivity.this, RetailerAddNewProductActivity.class);
-                intent.putExtra("category", "glasses");
+                intent.putExtra("category", "menPants");
                 startActivity(intent);
             }
         });
 
-        hatsCaps.setOnClickListener(new View.OnClickListener() {
+        menJackets.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(RetailerCategoryActivity.this, RetailerAddNewProductActivity.class);
-                intent.putExtra("category", "hatsCaps");
+                intent.putExtra("category", "menJackets");
                 startActivity(intent);
             }
         });
 
-        walletsBagsPurses.setOnClickListener(new View.OnClickListener() {
+        skirts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(RetailerCategoryActivity.this, RetailerAddNewProductActivity.class);
-                intent.putExtra("category", "walletsBagsPurses");
+                intent.putExtra("category", "skirts");
                 startActivity(intent);
             }
         });
 
-        shoes.setOnClickListener(new View.OnClickListener() {
+        tights.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(RetailerCategoryActivity.this, RetailerAddNewProductActivity.class);
-                intent.putExtra("category", "shoes");
+                intent.putExtra("category", "tights");
                 startActivity(intent);
             }
         });
 
-        headphonesHandsFree.setOnClickListener(new View.OnClickListener() {
+        frocks.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(RetailerCategoryActivity.this, RetailerAddNewProductActivity.class);
-                intent.putExtra("category", "headphonesHandsFree");
+                intent.putExtra("category", "frocks");
                 startActivity(intent);
             }
         });
 
-        laptops.setOnClickListener(new View.OnClickListener() {
+        bottoms.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(RetailerCategoryActivity.this, RetailerAddNewProductActivity.class);
-                intent.putExtra("category", "laptops");
+                intent.putExtra("category", "bottoms");
                 startActivity(intent);
             }
         });
 
-        watches.setOnClickListener(new View.OnClickListener() {
+        sweatShirts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(RetailerCategoryActivity.this, RetailerAddNewProductActivity.class);
-                intent.putExtra("category", "watches");
+                intent.putExtra("category", "sweatShirts");
                 startActivity(intent);
             }
         });
 
-        mobilePhones.setOnClickListener(new View.OnClickListener() {
+        dresses.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(RetailerCategoryActivity.this, RetailerAddNewProductActivity.class);
-                intent.putExtra("category", "mobilePhones");
+                intent.putExtra("category", "dresses");
                 startActivity(intent);
             }
         });

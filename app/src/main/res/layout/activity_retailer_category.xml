@@ -44,7 +44,7 @@
             />
 
         <ImageView
-            android:id="@+id/female_dresses"
+            android:id="@+id/female_shirts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/female_dresses"
@@ -70,28 +70,28 @@
         android:layout_marginTop="45dp">
 
         <ImageView
-            android:id="@+id/glasses"
+            android:id="@+id/men_pants"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/glasses"
             />
 
         <ImageView
-            android:id="@+id/purses_bags_wallets"
+            android:id="@+id/men_jackets"
             android:layout_width="90dp"
             android:layout_height="80dp"
             android:src="@drawable/purses_bags"
             />
 
         <ImageView
-            android:id="@+id/hats"
+            android:id="@+id/skirts"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/hats"
             />
 
         <ImageView
-            android:id="@+id/shoes"
+            android:id="@+id/tights"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginStart="16dp"
@@ -111,28 +111,28 @@
         android:layout_marginTop="45dp">
 
         <ImageView
-            android:id="@+id/headphones_handsfree"
+            android:id="@+id/frocks"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/headphoness"
             />
 
         <ImageView
-            android:id="@+id/laptop_pc"
+            android:id="@+id/bottoms"
             android:layout_width="90dp"
             android:layout_height="80dp"
             android:src="@drawable/laptops"
             />
 
         <ImageView
-            android:id="@+id/watches"
+            android:id="@+id/sweat_shirts"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/watches"
             />
 
         <ImageView
-            android:id="@+id/mobilephones"
+            android:id="@+id/dresses"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginStart="16dp"
